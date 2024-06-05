@@ -4,8 +4,8 @@ import { axiosToken } from '../../../config';
 
 const Login = () => {
     let navigate = useNavigate();
-    const [password, setPassword] = useState('0lelplR');
-    const [username, setUsername] = useState('kminchelle');
+    const [password, setPassword] = useState('emilyspass');
+    const [username, setUsername] = useState('emilys');
     const [loading, setLoading] = useState(false);
 
     const handleLogin = e => {
